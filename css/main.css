@@ -1,0 +1,768 @@
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/GothamRounded-Book.otf");
+  src: url("../fonts/GothamRoundedBook_21018.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../fonts/GothamRounded-Light.otf");
+  src: url("../fonts/GothamRoundedLight_21020.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../fonts/GothamRounded-MediumItalic.otf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/GothamRounded-Book.otf");
+  src: url("../fonts/GothamRoundedBook_21018.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../fonts/GothamRounded-Light.otf");
+  src: url("../fonts/GothamRoundedLight_21020.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../fonts/GothamRounded-MediumItalic.otf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+header {
+  max-width: 100%;
+  height: 800px;
+  background: url("../img/layer-6.jpg");
+  background-size: cover; }
+  header .burger {
+    text-align: end;
+    font-size: 30px;
+    margin-top: 63px;
+    cursor: pointer; }
+
+.about-design {
+  height: 700px; }
+
+.heading {
+  text-align: center;
+  font-family: Book, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  color: #a1a9b0;
+  text-transform: uppercase;
+  letter-spacing: 13px; }
+  .heading h1 {
+    color: #353535;
+    font-weight: normal; }
+  .heading span {
+    color: #a1a9b0;
+    display: inline-flex; }
+  .heading p {
+    font-family: Book, Arial, sans-serif;
+    font-size: 0.75em;
+    color: #8c9398;
+    text-transform: none;
+    letter-spacing: 2.25px; }
+    .heading p span {
+      font-family: MediumItalic, Arial, sans-serif;
+      font-weight: bold; }
+
+.heading-block {
+  margin-top: 130px; }
+
+.header-btn {
+  display: inline-flex;
+  width: 200px;
+  height: 60px;
+  margin-top: 52px;
+  background-color: #309383;
+  border-radius: 4%; }
+  .header-btn button {
+    width: 200px;
+    height: 60px;
+    background-color: #3dc9b3;
+    border: none;
+    position: relative;
+    top: -3px;
+    border-radius: 4%;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-size: 0.7em;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2.25px;
+    cursor: pointer; }
+    .header-btn button:hover {
+      position: relative;
+      top: 0;
+      transition: 0.2s; }
+
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/GothamRounded-Book.otf");
+  src: url("../fonts/GothamRoundedBook_21018.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../fonts/GothamRounded-Light.otf");
+  src: url("../fonts/GothamRoundedLight_21020.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../fonts/GothamRounded-MediumItalic.otf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+.info {
+  min-height: 486px;
+  background-color: #f3f5f8; }
+  .info h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    font-size: 0.9em; }
+
+.decorate_heading {
+  margin: 10px 40px 0; }
+  .decorate_heading img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto; }
+
+.info-text-block {
+  margin-top: 55px; }
+  .info-text-block span {
+    color: #353535; }
+  .info-text-block .info-text {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #8c9398;
+    line-height: 30px;
+    font-size: 1em;
+    letter-spacing: 0.14px;
+    text-align: center; }
+
+@media (max-width: 435px) {
+  .info-text-block {
+    margin-top: 0; }
+
+  .info h2 {
+    padding-top: 35px; } }
+.about {
+  min-height: 731px;
+  background-color: #ffffff; }
+  .about figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+    margin: 0 auto; }
+    .about figure i {
+      font-size: 3em;
+      color: #ffffff; }
+  .about h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    font-size: 0.91em; }
+  .about p {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #8c9398;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 26px;
+    display: inline-flex; }
+
+.about-content {
+  margin-top: 80px; }
+  .about-content h3 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-size: 1em;
+    color: #353535;
+    line-height: 20px;
+    margin-top: 51px;
+    margin-bottom: 26px; }
+
+.border {
+  width: 33px;
+  height: 3px;
+  border-bottom: 3px solid #3dc9b3;
+  margin: 0 auto; }
+
+.laptop-icons {
+  background: #3dc9b3 url("../img/laptop.png") no-repeat bottom 1px right; }
+
+.code-icons {
+  background: #3dc9b3 url("../img/code.png") no-repeat bottom 6px right 8px; }
+
+.heart-icons {
+  background: #3dc9b3 url("../img/code.png") no-repeat bottom 8px right; }
+
+.about-design {
+  min-height: 700px; }
+
+.phone-img {
+  background: #f3f5f8 url("../img/iphone-5s-isometric-view-mock-up.png") no-repeat fixed bottom left 200px;
+  height: 700px;
+  background-size: inherit; }
+
+.text-carousel {
+  justify-content: space-between; }
+  .text-carousel h2 {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    text-align: center !important;
+    font-size: 1.25em; }
+  .text-carousel p {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #8c9398;
+    display: inline-block;
+    text-align: left !important;
+    max-width: 75%;
+    line-height: 20px;
+    padding-right: 40px;
+    margin-left: 10%;
+    margin-right: 7%;
+    font-size: 1em;
+    margin-top: 0; }
+
+.decorate_heading-carousel {
+  margin: 36px 40px 47px; }
+  .decorate_heading-carousel img {
+    display: block;
+    max-width: 95%;
+    margin: 0 auto; }
+
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/GothamRounded-Book.otf");
+  src: url("../fonts/GothamRoundedBook_21018.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../fonts/GothamRounded-Light.otf");
+  src: url("../fonts/GothamRoundedLight_21020.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../fonts/GothamRounded-MediumItalic.otf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+.projects {
+  background: url("../img/flowers.jpg") no-repeat;
+  background-size: cover;
+  min-height: 300px; }
+  .projects .projects-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #3dc9b3;
+    cursor: pointer; }
+    .projects .projects-button:hover {
+      background-color: lightseagreen;
+      transition: 0.2s; }
+    .projects .projects-button i {
+      font-size: 1.3em;
+      color: #ffffff; }
+
+.projects-btn-block {
+  padding-bottom: 20px; }
+
+.projects-heading {
+  text-align: center;
+  font-family: Book, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  color: #a1a9b0;
+  text-transform: uppercase;
+  letter-spacing: 13px; }
+  .projects-heading h1 {
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    font-weight: normal;
+    margin-top: 81px; }
+  .projects-heading p {
+    color: #FFFFFF;
+    letter-spacing: 7.5px;
+    font-weight: normal;
+    margin-bottom: 43px;
+    font-size: 1.3em; }
+    .projects-heading p span {
+      font-family: MediumItalic, Arial, sans-serif; }
+
+.projects-carousel {
+  min-height: 661px; }
+  .projects-carousel figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 200px;
+    margin: 0 auto; }
+    .projects-carousel figure i {
+      font-size: 3em;
+      color: #ffffff; }
+  .projects-carousel .block {
+    margin: 0 !important; }
+  .projects-carousel h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    font-size: 0.91em; }
+  .projects-carousel p {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #8c9398;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 26px;
+    display: inline-flex; }
+  .projects-carousel img {
+    position: relative;
+    z-index: 1; }
+  .projects-carousel img:hover {
+    position: relative;
+    z-index: 2;
+    opacity: 0.7;
+    cursor: pointer; }
+
+.projects-content {
+  padding-top: 104px; }
+  .projects-content h3 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-size: 1em;
+    color: #353535;
+    line-height: 20px;
+    margin-top: 51px;
+    margin-bottom: 26px; }
+
+.subscribe {
+  min-height: 451px;
+  background: url("../img/keybords.jpg") no-repeat;
+  background-size: cover; }
+  .subscribe h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    padding-top: 0;
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-top: 24px; }
+  .subscribe .subscribe-row {
+    min-height: inherit; }
+
+.subscribe-send {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 45px; }
+  .subscribe-send input {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    width: 351px;
+    height: 65px;
+    font-family: MediumItalic, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #FFFFFF; }
+  .subscribe-send button {
+    width: 97px;
+    height: 65px;
+    font-family: GothamRounded, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 2.25px;
+    margin-left: 4px;
+    background-color: #3dc9b3;
+    border: 1px solid #3dc9b3;
+    text-align: center;
+    cursor: pointer; }
+    .subscribe-send button:hover {
+      background-color: lightseagreen; }
+
+.plane-paper {
+  display: flex;
+  justify-content: center; }
+  .plane-paper i {
+    color: #FFFFFF;
+    font-size: 1.8em; }
+  .plane-paper h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    padding-top: 0; }
+
+.subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: GothamRounded, Arial, sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+  top: -20px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #3dc9b3;
+  cursor: pointer; }
+  .subscribe-button:hover {
+    background-color: lightseagreen;
+    transition: 0.2s; }
+
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/GothamRounded-Book.otf");
+  src: url("../fonts/GothamRoundedBook_21018.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../fonts/GothamRounded-Light.otf");
+  src: url("../fonts/GothamRoundedLight_21020.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../fonts/GothamRounded-MediumItalic.otf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+.team-passion {
+  min-height: 200px;
+  background-color: #242830;
+  text-align: center; }
+
+.parent-row {
+  min-height: inherit; }
+
+.team-passion-btn button {
+  font-family: GothamRounded, Arial, sans-serif;
+  width: 294px;
+  height: 74px;
+  border: 1px solid #ffffff;
+  background-color: #242830;
+  color: #FFFFFF;
+  letter-spacing: 2.25px;
+  font-weight: bold; }
+  .team-passion-btn button:hover {
+    color: #3dc9b3;
+    border-color: #3dc9b3;
+    cursor: pointer;
+    transition: 0.2s; }
+
+.team-carousel {
+  min-height: 877px; }
+  .team-carousel figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 200px;
+    margin: 0 auto; }
+    .team-carousel figure i {
+      font-size: 3em;
+      color: #ffffff; }
+  .team-carousel .block {
+    margin: 0 !important; }
+  .team-carousel h1 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    font-size: 1em; }
+  .team-carousel h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    font-size: 0.91em; }
+  .team-carousel p {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #8c9398;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 26px;
+    display: inline-flex; }
+  .team-carousel figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 218px;
+    margin: 0 auto; }
+  .team-carousel .social {
+    display: inline-flex;
+    height: 41px;
+    width: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #242830; }
+    .team-carousel .social:hover {
+      background-color: #3dc9b3;
+      cursor: pointer; }
+
+.social-block {
+  display: inline-flex;
+  min-width: 60%;
+  justify-content: space-around;
+  margin: 10% 20% 20%; }
+  .social-block i {
+    margin: 0 auto;
+    align-self: center;
+    color: #FFFFFF; }
+
+.team-content {
+  padding-top: 67px; }
+  .team-content h3 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-size: 1em;
+    color: #353535;
+    line-height: 20px;
+    margin-top: 51px;
+    margin-bottom: 26px; }
+
+@font-face {
+  font-family: "Book";
+  src: url("../fonts/GothamRounded-Book.otf");
+  src: url("../fonts/GothamRoundedBook_21018.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "GothamRounded";
+  src: url("../fonts/GothamRounded-Light.otf");
+  src: url("../fonts/GothamRoundedLight_21020.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: "MediumItalic";
+  src: url("../fonts/GothamRounded-MediumItalic.otf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Awesome";
+  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+.feedback {
+  min-height: 672px;
+  background-color: #f3f5f8; }
+  .feedback h2 {
+    text-align: center;
+    font-family: GothamRounded, Arial, sans-serif;
+    font-weight: bold;
+    color: #353535;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding-top: 93px;
+    max-width: 100%;
+    padding-top: 65px;
+    font-size: 1em; }
+
+.feedback-row {
+  min-height: 350px; }
+
+.feedback-contact {
+  margin-top: 85px; }
+
+.address,
+.phone,
+.email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 345px;
+  height: 150px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 0 #f0f2f4;
+  margin-right: 1px; }
+  .address i,
+  .phone i,
+  .email i {
+    font-size: 0.9em; }
+  .address h4,
+  .phone h4,
+  .email h4 {
+    font-family: GothamRounded, Arial, sans-serif;
+    font-size: 1em;
+    color: #3dc9b3;
+    letter-spacing: 2.1px; }
+  .address p,
+  .phone p,
+  .email p {
+    font-family: GothamRounded, Arial, sans-serif;
+    color: #8c9398;
+    margin-top: 0; }
+
+.social {
+  display: flex;
+  height: 41px;
+  width: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #242830; }
+  .social:hover {
+    background-color: #3dc9b3;
+    cursor: pointer; }
+
+.social-row {
+  margin-top: 45px; }
+
+footer {
+  height: 121px;
+  background-color: #242830; }
+  footer span {
+    color: #FFFFFF; }
+  footer p {
+    font-family: Book, Arial, sans-serif;
+    color: #a1a9b0; }
+
+.footer-row {
+  height: 121px; }
+
+@media (max-width: 1530px) {
+  .phone-img {
+    background: #f3f5f8 url("../img/iphone-5s-isometric-view-mock-up.png") no-repeat fixed bottom left 100px;
+    height: 600px;
+    background-size: inherit; }
+
+  .about-design {
+    min-height: 600px;
+    max-height: 600px; } }
+@media (max-width: 1199px) {
+  .decorate_heading-carousel img {
+    max-width: 70%; }
+
+  .text-carousel h2 {
+    margin-top: 35px; }
+
+  .projects {
+    margin-top: 500px; } }
+@media (max-width: 1090px) {
+  .text-carousel p {
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 0; }
+
+  .text-carousel h2 {
+    margin-top: 30px; }
+
+  .decorate_heading-carousel {
+    margin: 36px 40px 47px; }
+    .decorate_heading-carousel img {
+      max-width: 70%; } }
+@media (max-width: 750px) {
+  .decorate_heading-carousel img {
+    max-width: 85%; } }
+
+/*# sourceMappingURL=main.css.map */

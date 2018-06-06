@@ -1,0 +1,132 @@
+@import "fonts";
+@import "mixin";
+
+.info {
+  min-height: 486px;
+  background-color: #f3f5f8;
+  h2 {
+    @include h2;
+    font-size: $font_size - 0.1;
+  }
+}
+
+.decorate_heading {
+  @include decorate_heading;
+}
+
+.info-text-block {
+  margin-top: 55px;
+  span {
+    color: #353535;
+  }
+  .info-text {
+    @include text_p;
+    line-height: 30px;
+    font-size: $font_size;
+    letter-spacing: 0.14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 435px) {
+  .info-text-block {
+    margin-top: 0;
+  }
+
+  .info h2 {
+    padding-top: 35px;
+  }
+
+}
+
+.about {
+  min-height: 731px;
+  background-color: #ffffff;
+  @include icons;
+  h2 {
+    @include h2;
+    font-size: $font_size - 0.09;
+  }
+  p {
+    @include text_p;
+    font-size: $font_size - 0.1;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 26px;
+    display: inline-flex;
+  }
+}
+
+.about-content {
+  margin-top: 80px;
+  h3 {
+    text-align: center;
+    font-family: $font_gotham;
+    font-size: 1em;
+    color: #353535;
+    line-height: 20px;
+    margin-top: 51px;
+    margin-bottom: 26px;
+
+  }
+}
+
+.border {
+  width: 33px;
+  height: 3px;
+  border-bottom: 3px solid #3dc9b3;
+  margin: 0 auto;
+}
+
+.laptop-icons {
+  background: #3dc9b3 url("../img/laptop.png") no-repeat bottom 1px right;
+}
+
+.code-icons {
+  background: #3dc9b3 url("../img/code.png") no-repeat bottom 6px right 8px;
+}
+
+.heart-icons {
+  background: #3dc9b3 url("../img/code.png") no-repeat bottom 8px right;
+}
+
+.about-design {
+  min-height: 700px;
+}
+
+.phone-img {
+  background: #f3f5f8 url("../img/iphone-5s-isometric-view-mock-up.png") no-repeat fixed bottom left 200px;
+  height: 700px;
+  background-size: inherit;
+}
+
+.text-carousel {
+  justify-content: space-between;
+  h2 {
+    @include heading_block;
+    text-align: center !important;
+    font-size: 1.25em;
+  }
+  p {
+    @include text_p;
+    display: inline-block;
+    text-align: left !important;
+    max-width: 75%;
+    line-height: 20px;
+    padding-right: 40px;
+    margin-left: 10%;
+    margin-right: 7%;
+    font-size: 1em;
+    margin-top: 0;
+  }
+}
+
+.decorate_heading-carousel {
+  margin: 36px 40px 47px;
+  img {
+    display: block;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+

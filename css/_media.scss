@@ -1,0 +1,53 @@
+@media (max-width: 1530px) {
+  .phone-img {
+    background: #f3f5f8 url("../img/iphone-5s-isometric-view-mock-up.png") no-repeat fixed bottom left 100px;
+    height: 600px;
+    background-size: inherit;
+  }
+  .about-design {
+    min-height: 600px;
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .decorate_heading-carousel img {
+    max-width: 70%;
+  }
+  .text-carousel h2 {
+    margin-top: 35px;
+  }
+  .projects {
+    margin-top: 500px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .text-carousel p {
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 0;
+  }
+  .text-carousel h2 {
+    margin-top: 30px;
+  }
+
+  .decorate_heading-carousel {
+    margin: 36px 40px 47px;
+    img {
+      max-width: 70%;
+    }
+  }
+}
+
+@media (max-width: 767px){
+     .social-block {
+     }
+}
+
+@media (max-width: 750px) {
+  .decorate_heading-carousel img {
+    max-width: 85%;
+  }
+}
+
